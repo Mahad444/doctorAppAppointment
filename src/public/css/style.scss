@@ -1,0 +1,65 @@
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+
+.header {
+    height: 400px;
+    top-nav{
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        .logo{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+
+            img{
+                margin-top: 5px;
+                // margin-left: 10px;
+                height: 50%;
+            }
+            i{
+                margin:5px;
+            font-size: 28px;
+            opacity: 0.5;
+
+            }
+
+        }
+        .intro{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            span{
+                display: block;
+            }
+        }
+        .support{
+            width: 100%;
+        }
+        .intro-icon{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+        }
+        
+
+    }
+
+}
+.container{
+    margin: 0 20px;
+    }
+
+.image-nav{
+    height: 300px;
+}
+
+.bottom-nav{
+    height: 150px;
+}

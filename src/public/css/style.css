@@ -1,0 +1,71 @@
+.red {
+    border: 1px solid red;
+}
+
+.green {
+    border: 1px solid green;
+}
+/* reset CSS of body*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 20px;
+    }
+
+.header {
+    height: 550px;
+}
+.header .top-nav{     
+  height: 100px;
+  display: flex;
+    flex-direction: row;
+}
+.intro-icon{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+span{
+    display: block;
+}
+    .logo{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+
+
+    }
+    img{
+        margin-left: 10px;
+        height: 50%;
+    }
+
+    i{
+        margin:5px;
+    font-size: 28px;
+    opacity: 0.5;
+
+    }
+
+    .intro{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .support{
+        width: 100%;
+    }
+
+
+.image-nav{
+    height: 300px;
+}
+
+.bottom-nav{
+    height: 150px;
+}

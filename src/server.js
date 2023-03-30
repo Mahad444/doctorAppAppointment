@@ -11,9 +11,13 @@ configViewEngine(app);
 
 initWebRoutes(app);
 
-let port = process.env.PORT || 6500 ;
+let port = process.env.PORT || 6500 ; 
 
 app.listen(port, () => {
     // console using color
-    console.log(`App is running on http://localhost:${port}`.yellow.bgWhite);
+    console.log("#".bgBlue+"Stand".bgBlue+"With".bgYellow+"Ukraine".bgYellow);
+    // i stand with palestine
+    console.log("I".bgRed+"Stand".bgBlack+"With".bgWhite+"Palestine".bgGreen);
+    console.log("Black Lives Matter".bgBlack);
+    console.log(`App is running on http://localhost:${port}`.black.bgGreen); 
 });
