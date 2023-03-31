@@ -1,91 +1,310 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HomePage</title>
+    <title>Daktari</title>
+    <!-- LOADING FONTAWSOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="/css/style.css">
+<!-- LOADING SLICK CSS/SLIDER with jQuery-->
+<!-- jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<!-- CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+<!-- JS -->
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<!-- slick slide -->
+<script src="/js/slick-slide.js" ></script>
+
+
+
 </head>
 <body>
-    <!-- container div for homepage -->
-    <div class="container ">
-    <!-- section for header -->
-    <section class="header red">
-        <div class="top-nav green">
-            <div class="logo">
-                <!-- <i class="fa-solid fa-users-medical"></i> -->
-                <i class="fa-sharp fa-solid fa-bars"></i>
-                <img src="/images/logoone.jpeg">
-            </div>
-            <div class="intro">
-            <div class="intro-icon">
-                <h3 class="title" >Specialist</h3>
-               <span>Find a Doctor By Specialty</span>
+    <div class="container">
+        <!-- HEADER SECTION -->
+        <section class="header">
+            <div class="top-nav">
+                <div class="logo">
+                    <i class="fas fa-bars"></i>
 
-            </div>
-            <div class="intro-icon">
-                <h3 class="title" >Health Facilities</h3>
-               <span>Select Clinic</span>
-            </div>
-            <div class="intro-icon">
-                <h3 class="title" >Doctor</h3>
-               <span>Choose a good Doctor</span>
-            </div>
-            <div class="intro-icon">
-                <h3 class="title" >Exam Packages</h3>
-               <span>For General Health Check-up</span>
-            </div>
-            </div>
-            <div class="support">
-
-            </div>
-        </div>
-        <div class="image-nav red ">
-            
-
-        </div>
-        <div class="bottom-nav green">
-            
-
-        </div>
-
-    </section>
-
-<!-- section For Popular specialty -->
-<section class="popular-specialty">
-
-</section>
-
-
-<!-- section For Hospitals And Clinic -->
-<section class="hospitals-and-clinic">
-
-</section>
-
-<!-- section For Doctors -->
-<section class="doctors">
-
-</section>
-
-<!-- section For handBook -->
-<section class="handbook">
-
-</section>
-
-<!-- section For Contact -->
-<section class="contact">
-
-</section>
-
-<!-- footer -->
-<footer>
-
-</footer>
+                    <img src="/images/logo-website.png" alt="logo-website">
+                </div>
+                <div class="intro">
+                    <div class="intro-icon">
+                        <h3 class="title">Specialist</h3>
+                        <span>Find a doctor by specialty</span>
+                    </div>
+                    <div class="intro-icon">
+                        <h3 class="title">Health facilities</h3>
+                        <span>Select clinic</span>
+                    </div>
+                    <div class="intro-icon">
+                        <h3 class="title">Doctor</h3>
+                        <span>Choose a good doctor</span>
+                    </div>
+                    <div class="intro-icon">
+                        <h3 class="title">Exam package</h3>
+                        <span>General health check</span>
+                    </div>           
     
-</div>
+                </div>
+                <div class="support">
+                    <span><i class="fa-sharp fa-solid fa-circle-question"></i>Support</span>
+                </div>
+            </div>
+    
+            <div class="image-nav">
+                <div class="title-image">
+                    SPECIALIST MEDICAL EXAMINATION PLATFORM
+                </div>
+                <div class="btn-search">
+                    <i class="fas fa-search"></i>
+                    <input class="input-search" type="text" name="btnSearch" placeholder="Search here...">
+                </div>
+            </div>
+            <div class="bottom-nav">
+                <div class="bottom-item">
+                    <i class="fa-solid fa-check"></i>
+                    <span>Big hospital</span>
+                </div>
+                <div class="bottom-item">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <span>Good clinic</span>
+                </div>
+                <div class="bottom-item">
+                    <i class="fa-solid fa-user-nurse"></i>
+                    <span>Good doctor</span>
+                </div>
+                <div class="bottom-item">
+                    <i class="far fa-clock"></i>
+                    <span>Priority examination</span>
+                </div>
+            </div>
+        </section>
+        <!-- END HEADER SECTION -->
+        <!-- POPULAR SPECIALITY SECTION -->
+        <section class="popular-specialty">
+            <div class="title-section">
+                <span class="span-title">Popular specialty</span>
+                <div class="btn-view ">
+                    <a class="" href="/"> <span>ALL SPECIALITY </span></a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="my-slick-slide">
+                    <div class="div-slide">
+                        <div class="image-slide">
+                        </div>
+                        <div class="div-title">
+                            <span>Heart</span>
+                        </div>
+                    </div>
+                    <div class="div-slide">
+                        <div class="image-slide">
+                        </div>
+                        <div class="div-title">
+                            <span>Nerve</span>
+                        </div>
+                    </div>
+                    <div class="div-slide">
+                        <div class="image-slide">
+                        </div>
+                        <div class="div-title">
+                            <span>Digest</span>
+                        </div>
+                    </div>
+                    <div class="div-slide">
+                        <div class="image-slide">
+    
+                        </div>
+                        <div class="div-title">
+                            <span>Dentistry</span>
+                        </div>
+                    </div>
+                    <div class="div-slide">
+                        <div class="image-slide">
+    
+                        </div>
+                        <div class="div-title">
+                            <span>Acupuncture</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END POPULAR SPECIALITY SECTION -->
 
-</body>
+        <!-- TOP HOSPITALS & CLINICS SECTION -->
+        <section class="hospital-and-clinic">
+            <div class="title-section">
+                <span class="span-title">Top hospitals & clinics</span>
+                <div class="btn-view ">
+                    <a class="" href="/"> <span>ALL MEDICAL FACILITIES </span></a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="my-slick-slide">
+                    <div class="div-slide">
+                        <div class="image-slide">
+                        </div>
+                        <div class="div-title">
+                            <span>Kenyatta Hospital</span>
+                        </div>
+                    </div>
+                    <div class="div-slide">
+                        <div class="image-slide">
+                        </div>
+                        <div class="div-title">
+                            <span>Delaware Hospital</span>
+                        </div>
+                    </div>
+                    <div class="div-slide">
+                        <div class="image-slide">
+                        </div>
+                        <div class="div-title">
+                            <span>Al-Amin Clinic</span>
+                        </div>
+                    </div>
+                    <div class="div-slide">
+                        <div class="image-slide">
+    
+                        </div>
+                        <div class="div-title">
+                            <span>Dawa-First Hospital</span>
+                        </div>
+                    </div>
+                    <div class="div-slide">
+                        <div class="image-slide">
+    
+                        </div>
+                        <div class="div-title">
+                            <span>Nairobi South Hospital</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END TOP HOSPITALS & CLINICS SECTION -->
+
+
+        <!-- OUTSTANDING DOCTOR SECTION -->
+        <section class="doctors">
+            <div class="title-section">
+                <span class="span-title">Outstanding doctor</span>
+                <div class="btn-view ">
+                    <a class="" href="/"> <span>ALL THE DOCTORS </span></a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="my-slick-slide">
+                    <div class="div-slide">
+                        <img src="/images/muslimah.jpeg" alt="image-doctors">
+                        <div class="info-doctor">
+                            <span class="name">Dr. Khadija Said</span>
+                            <span class="speciality">Nerve</span>
+                        </div>
+                        <span class="count-booking">1.000 bookings</span>
+                    </div>
+                    <div class="div-slide">
+                        <img src="/images/docky.jpeg" alt="image-doctors">
+                        <div class="info-doctor">
+                            <span class="name">Dr. Osman Karanja</span>
+                            <span class="speciality">Heart</span>
+                        </div>
+                        <span class="count-booking">1.000 bookings</span>
+                    </div>
+                    <div class="div-slide">
+                        <img src="/images/docky1.webp" alt="image-doctors">
+                        <div class="info-doctor">
+                            <span class="name">Dr. Mary Waithera</span>
+                            <span class="speciality">Oncology</span>
+                        </div>
+                        <span class="count-booking">1.000 bookings</span>
+                    </div>
+                    <div class="div-slide">
+                        <img src="/images/pregnancy.webp" alt="image-doctors">
+                        <div class="info-doctor">
+                            <span class="name">Dr.William Mwaura</span>
+                            <span class="speciality">Pregnancy</span>
+                        </div>
+                        <span class="count-booking">1.000 bookings</span>
+                    </div>
+                    <div class="div-slide">
+                        <img src="/images/docky2.jpeg" alt="image-doctors">
+                        <div class="info-doctor">
+                            <span class="name">Dr.Saarah Ahmed</span>
+                            <span class="speciality">Nerve</span>
+                        </div>
+                        <span class="count-booking">1.000 bookings</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END OUTSTANDING DOCTOR SECTION -->
+
+        <!-- HANDBOOKS SECTION -->
+        <section class="handbook">
+            <div class="title-section">
+                <span class="span-title">Handbooks</span>
+                <div class="btn-view ">
+                    <a class="" href="/"> <span>ALL POSTS</span></a>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="handbook-slide">
+                    <div class="div-slide">
+                      <img src="/images/bground.jpeg" alt="image the post">
+                        <div class="info-post">
+                            <span class="title-post">My first post</span>
+                            <div class="summary-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                        </div>
+                    </div>
+                    <div class="div-slide">
+                        <img src="/images/bground.jpeg" alt="image the post">
+                        <div class="info-post">
+                            <span class="title-post">My first post</span>
+                            <div class="summary-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                        </div>
+                    </div>
+                    <div class="div-slide">
+                        <img src="/images/bground.jpeg" alt="image the post">
+                        <div class="info-post">
+                            <span class="title-post">My first post</span>
+                            <div class="summary-content">asdfasdf asdfl asfd lkasdfasdfasfd</div>
+                        </div>
+                    </div>
+                    <div class="div-slide">
+                        <img src="/images/bground.jpeg" alt="image the post">
+                        <div class="info-post">
+                            <span class="title-post">My first post</span>
+                            <div class="summary-content">asdfasdf asdfl asfd lkasdfasdfasfd</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END HANDBOOKS SECTION -->
+
+
+        <!-- CONTACT SECTION -->
+        <section class="contact">
+            <div class="left-side">
+                <span class="title">For doctors</span>
+                <span class="second-title">Building credibility and online brand</span>
+                <span class="third-title">Increasing the number of patients and effective management</span>
+                <a class="btn-contact"><span>contact for cooperation</span></a>
+            </div>
+            </div>
+        </section>
+        <!-- END CONTACT SECTION -->
+        <footer>
+            <span>@Ally.J.Said</span>
+        </footer>
+    </div>
+    </body>
 </html>
