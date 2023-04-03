@@ -1,6 +1,6 @@
 require('dotenv').config(); // Load environment variables from .env file
 const colors = require('colors'); // Using color for console
-
+const ConnectionDB = require('./Config/connectionDB'); // Connect to database
 const express = require('express');
 const configViewEngine = require('./Config/viewEngine');
 const initWebRoutes = require('./routes/web');
@@ -8,6 +8,8 @@ const initWebRoutes = require('./routes/web');
 let app = express();
 
 configViewEngine(app);
+
+ConnectionDB(); 
 
 initWebRoutes(app);
 

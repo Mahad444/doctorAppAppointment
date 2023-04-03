@@ -115,7 +115,7 @@ body a {
   align-items: center;
 }
 .header .bottom-nav .bottom-item span {
-  padding-top: 5px;
+  padding-top: 5px; 
   display: block;
 }
 .header .bottom-nav .bottom-item i {
@@ -218,7 +218,7 @@ body a {
 .popular-specialty .slide .my-slick-slide .div-slide .image-slide,
 .hospital-and-clinic .slide .my-slick-slide .div-slide .image-slide,
 .doctors .slide .my-slick-slide .div-slide .image-slide,
-.handbook .slide .my-slick-slide .div-slide .image-slide {
+.handbook .slide .my-slick-slide .div-slide .image-slide{
   height: 200px;
   background-image: url("../images/bground.jpeg");
   background-position: center center;
